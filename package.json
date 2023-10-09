@@ -1,8 +1,17 @@
 {
+  "name": "Igloo-tree",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
     "three": "^0.157.0"
   },
   "devDependencies": {
-    "vite": "^4.4.11"
+    "vite": "^4.4.11",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "vite"
   }
 }
